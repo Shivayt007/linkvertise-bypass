@@ -58,7 +58,7 @@ def lv_bypass(url):
 # -------------------------------------------
 
 # Add URL
-url = "https://domain.tld/XXXXXX/XXX" 
+url = input('Enter Linkvertise Url ') 
 bypassed = lv_bypass(url)
 
 print(bypassed)
