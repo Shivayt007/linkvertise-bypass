@@ -58,7 +58,8 @@ def lv_bypass(url):
 # -------------------------------------------
 
 # Add URL
-url = input('Enter Linkvertise Url ') 
-bypassed = lv_bypass(url)
+while True:
+    url = input('Enter Linkvertise Url ') 
+    bypassed = lv_bypass(url)
 
-print(bypassed)
+    print(bypassed)
